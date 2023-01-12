@@ -3,9 +3,9 @@ package com.driver;
 public class Main {
     public static void main(String[] args) {
         Product p=new Product();
-        p.product(1,2);
-        p.product(1,2,4);
-        p.product(20.0,1.2);
+        System.out.println(p.product(1, 5));
+        System.out.println(p.product(1,2,4));
+        System.out.println(p.product(20.0,1.2));
     }
 }
 class Product{
